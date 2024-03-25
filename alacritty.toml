@@ -2,7 +2,7 @@ import = [
   # uncomment the flavour you want below:
   # "~/.config/alacritty/catppuccin-latte.toml"
   # "~/.config/alacritty/catppuccin-frappe.toml"
-  # "~/.config/alacritty/catppuccin-macchiato.toml"
+  # "~/.config/alacritty/catppuccin-macchiato.toml",
   "~/.config/alacritty/catppuccin-mocha.toml",
 ]
 
@@ -22,16 +22,17 @@ style = "Heavy Italic"
 
 [font.italic]
 family = "JetBrainsMono Nerd Font"
-style = "Medium Italic"
+style = "Regular Italic"
 
 [font.normal]
 family = "JetBrainsMono Nerd Font"
-style = "Medium"
+style = "Regular"
 
 [window]
 startup_mode = "Maximized"
+blur = true
 
 decorations = "buttonless"
 dynamic_padding = false
-opacity = 0.9
-padding = { x = 8, y = 4 }
+opacity = 0.6
+padding = { x = 8, y = 0 }
